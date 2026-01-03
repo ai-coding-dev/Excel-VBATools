@@ -11,7 +11,7 @@ On Error GoTo ErrorHandle
         Sheets("Excel2Txt").Cells(4, 3), _
         Sheets("Excel2Txt").Cells(6, 3))
     
-    MsgBox "ê≥èÌèIóπ", vbInformation
+    MsgBox "OK", vbInformation
 ExitHandle:
     Application.DisplayAlerts = True
     Application.ScreenUpdating = True
